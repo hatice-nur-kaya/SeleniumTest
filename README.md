@@ -11,7 +11,8 @@ Beyaz Kutu Tekniğinde yazılımın kodunun iç yapısının bilinerek, ölçüm
 •	Karar test tasarım tekniği: Karar kapsamı kodumuzun içerisindeki if else, while, switch gibi birden fazla sonuç oluşturabilecek karar noktalarıdır. 
 Siyah Kutu Tekniğinde azılımın iç yapısı hakkında bilgi sahibi olunmadan yani koda bakılmadan sistemin işlevselliğini ölçmeye yarayan test tekniğidir.
 Gri Kutu Test tekniğinde hem Kara Kutu hem de Beyaz Kutu testinin bir kombinasyonudur.
-Senaryo :  
+Senaryo :
+--- 
 2.	Test Otomasyonu (UI)
 
 Aşağıdaki test senaryosunu Cucumber, Selenium ve istediğiniz programlama dili ile geliştiriniz.
