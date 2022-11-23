@@ -25,6 +25,10 @@ Aşağıdaki test senaryosunu Cucumber, Selenium ve istediğiniz programlama dil
 5.	"Sepete Ekle" butonuna tıklanır.
 6.	"Sepeti Gör” butonuna tıklanır.
 7.	Ürünün sepete eklendiği kontrol edilir.
+8.	
+### CEVAP
+Selenium ile yazılan kod : (https://github.com/HNK-hub/SeleniumTest)
+Ayrıca Chrome eklentisi ile de gerçekleştirilen test senaryosu github içerisinde bulunmaktadır.
 
 3.	Test Otomasyonu – API
 
@@ -34,21 +38,24 @@ istediğiniz programlama dili ile geliştiriniz.
 Senaryo: Seçilecek birer tane GET ve POST isteği için “HTTP Status Code” 200 (başarılı), değilse
 (başarısız) olan test senaryosu. (http://generator.swagger.io)
 
-3.SORU CEVABI:
+### CEVAP
 GET:
->    pm.test("Status is 200", () => {
->    pm.response.to.have.status(200)
->    });
+  pm.test("Status is 200", () => {
+  pm.response.to.have.status(200)
+  });
 
 POST:
->   pm.test("Status is 201", () => {
->   pm.response.to.have.status(201)
->   });
+   pm.test("Status is 201", () => {
+   pm.response.to.have.status(201)
+   });
 
 4.	Hata Raporlama
 
 E-Bebek web sitesi ya da mobil uygulamasında en az 2 adet hata bularak standartlara uygun bir
 şekilde raporlayınız.
+
+### CEVAP
+
 *	iPad Air cihazı gibi farklı boyuttaki cihazlar için slider içerisindeki resim responsive yapıda değil
  <img src="[gorsel-link](https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png)" width="auto">
 
