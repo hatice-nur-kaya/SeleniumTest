@@ -4,12 +4,12 @@ Sepet sayfasındaki işlemler için işlevsel test senaryoları geliştiriniz.
 ### CEVAP
 
 Test senaryoları 3 şekilde yapılabilmektedir.
-•	Beyaz Kutu Tekniği
-•	Siyah Kutu Tekniği
-•	Gri Kutu Tekniği
+*	Beyaz Kutu Tekniği
+*	Siyah Kutu Tekniği
+*	Gri Kutu Tekniği
 Beyaz Kutu Tekniğinde yazılımın kodunun iç yapısının bilinerek, ölçümlenerek test senaryolarının tasarlandığı tekniktir. İki çeşittir 
-•	Komut test tasarım tekniği: Komut kodda direkt olarak gerçekleşmesini istediğimiz bir işleve denir.
-•	Karar test tasarım tekniği: Karar kapsamı kodumuzun içerisindeki if else, while, switch gibi birden fazla sonuç oluşturabilecek karar noktalarıdır. 
+* 	Komut test tasarım tekniği: Komut kodda direkt olarak gerçekleşmesini istediğimiz bir işleve denir.
+* 	Karar test tasarım tekniği: Karar kapsamı kodumuzun içerisindeki if else, while, switch gibi birden fazla sonuç oluşturabilecek karar noktalarıdır. 
 Siyah Kutu Tekniğinde azılımın iç yapısı hakkında bilgi sahibi olunmadan yani koda bakılmadan sistemin işlevselliğini ölçmeye yarayan test tekniğidir.
 Gri Kutu Test tekniğinde hem Kara Kutu hem de Beyaz Kutu testinin bir kombinasyonudur.
 Senaryo :
@@ -49,7 +49,7 @@ POST:
 
 E-Bebek web sitesi ya da mobil uygulamasında en az 2 adet hata bularak standartlara uygun bir
 şekilde raporlayınız.
-•	iPad Air cihazı gibi farklı boyuttaki cihazlar için slider içerisindeki resim responsive yapıda değil
+*	iPad Air cihazı gibi farklı boyuttaki cihazlar için slider içerisindeki resim responsive yapıda değil
  <img src="[gorsel-link](https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png)" width="auto">
 
 * Açıklama alanı olarak oluşturulan paragraf yazı tipi boyutunun küçük olduğunu düşünüyorum. Bunun yerine bu açıklamalar Blog sayfası altında düzenlenebilir.
@@ -58,4 +58,4 @@ E-Bebek web sitesi ya da mobil uygulamasında en az 2 adet hata bularak standart
   <img src="[gorsel-link]([https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png](https://github.com/HNK-hub/SeleniumTest/blob/master/exception3.png))" width="auto">
 * Sunucu Hatası : Ürün araması yaparken CLIENT hatası dönderiyor.
  <img src="[gorsel-link]([https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png](https://github.com/HNK-hub/SeleniumTest/blob/master/exception4.png))" width="auto">
- * 
+
