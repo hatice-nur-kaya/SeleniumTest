@@ -2,6 +2,7 @@
 
 Sepet sayfasındaki işlemler için işlevsel test senaryoları geliştiriniz.
 ### CEVAP
+
 Test senaryoları 3 şekilde yapılabilmektedir.
 •	Beyaz Kutu Tekniği
 •	Siyah Kutu Tekniği
@@ -12,7 +13,7 @@ Beyaz Kutu Tekniğinde yazılımın kodunun iç yapısının bilinerek, ölçüm
 Siyah Kutu Tekniğinde azılımın iç yapısı hakkında bilgi sahibi olunmadan yani koda bakılmadan sistemin işlevselliğini ölçmeye yarayan test tekniğidir.
 Gri Kutu Test tekniğinde hem Kara Kutu hem de Beyaz Kutu testinin bir kombinasyonudur.
 Senaryo :
---- 
+--
 2.	Test Otomasyonu (UI)
 
 Aşağıdaki test senaryosunu Cucumber, Selenium ve istediğiniz programlama dili ile geliştiriniz.
