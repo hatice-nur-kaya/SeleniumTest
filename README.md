@@ -30,39 +30,4 @@ Aşağıdaki test senaryosunu Cucumber, Selenium ve istediğiniz programlama dil
 Selenium ile yazılan kod : (https://github.com/HNK-hub/SeleniumTest)
 Ayrıca Chrome eklentisi ile de gerçekleştirilen test senaryosu github içerisinde bulunmaktadır.
 
-3.	Test Otomasyonu – API
-
-API isteği sonucunun (HTTP Status Code) kontrolünü gerçekleştiren aşağıdaki test senaryosunu
-istediğiniz programlama dili ile geliştiriniz.
-
-Senaryo: Seçilecek birer tane GET ve POST isteği için “HTTP Status Code” 200 (başarılı), değilse
-(başarısız) olan test senaryosu. (http://generator.swagger.io)
-
-### CEVAP
-GET:
-  pm.test("Status is 200", () => {
-  pm.response.to.have.status(200)
-  });
-
-POST:
-   pm.test("Status is 201", () => {
-   pm.response.to.have.status(201)
-   });
-
-4.	Hata Raporlama
-
-E-Bebek web sitesi ya da mobil uygulamasında en az 2 adet hata bularak standartlara uygun bir
-şekilde raporlayınız.
-
-### CEVAP
-
-*	iPad Air cihazı gibi farklı boyuttaki cihazlar için slider içerisindeki resim responsive yapıda olmadığı gözlemlendi.
-![JavaScriptApp]([http://www.zafercomert.com/medya/java/JavaReactCamp-JavaScriptApp.svg](https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png))
-* Açıklama alanı olarak oluşturulan paragraf yazı tipi boyutunun küçük olduğu gözlemlendi. Bunun yerine bu açıklamalar Blog sayfası altında düzenlenebilir.
-  ![JavaScriptApp]([http://www.zafercomert.com/medya/java/JavaReactCamp-JavaScriptApp.svg])
-
-*	Backend kısmında karşılaşılan hata tüm input değerlerini verilen sınır değere göre girildiği zaman hata dönderiyor
-  <img src="[gorsel-link]([https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png](https://github.com/HNK-hub/SeleniumTest/blob/master/exception3.png))" width="auto">
-* Sunucu Hatası : Ürün araması yaparken CLIENT hatası dönderiyor.
- <img src="[gorsel-link]([https://github.com/HNK-hub/SeleniumTest/blob/master/exception1.png](https://github.com/HNK-hub/SeleniumTest/blob/master/exception4.png))" width="auto">
-
+### Diğer 2 sorunun cevabı github içerisinde bulunan word dosyası içerisinde yer almaktadır.
