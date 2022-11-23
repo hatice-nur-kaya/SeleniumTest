@@ -1,5 +1,5 @@
-##  Manuel Test Senaryosu
-
+# ebebek QA Projesi
+1. Manuel Test Senaryosu
 Sepet sayfasındaki işlemler için işlevsel test senaryoları geliştiriniz.
 ### CEVAP
 
