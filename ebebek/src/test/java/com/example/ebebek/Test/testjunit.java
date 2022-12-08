@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-public class Test12Test {
+public class testjunit {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
